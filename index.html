@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <title>Chats | Kakao Clone</title>
+  </head>
+  <body>
+      <!-- 여기서부터 뚝배기 !!!! -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="heafer__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <!-- 뚝배기 끝!!!!! -->
+    <!-- 여기서부터 메인 !!!!!! -->
+    <main class="chats">
+        <ul class="chats__list">
+            <li class="chats__chat chant">
+              <a href="chat.html">
+                <div class="chats__column">
+                  <!-- g-avatar: 글로벌 스타일 파일.(웹사이트 모든 곳에 영향 줌) -->
+                    <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
+                   <div class="chat__content">
+                       <span class="user__name">
+                           Lynn
+                       </span>
+                       <span class="chat_preview">Going home!</span>
+                   </div> 
+                </div>
+                <div class="chats__column">
+                    <spa class="chat__timestamp">Yseterday</spa>
+                </div>
+              </a>
+            </li>
+        </ul>
+    </main>
+    <!-- 메인 끝 !!!! -->
+    <!-- 여기서부터 아래 !!!!! -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="friends.html" class="nav__list-link">
+                    <i class="far fa-user"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="index.html" class="nav__list-link">
+                    <i class="fas fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="find.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </body>
+</html>
